@@ -1,1 +1,1 @@
-# IMAD5112-Practicum-2024
+# IMAD5112-Practicum Guide 2024 - Sample Solution
