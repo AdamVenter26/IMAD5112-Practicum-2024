@@ -20,47 +20,47 @@
 
     <EditText
         android:id="@+id/edtMorning1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="407dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
         android:hint="Monday Morning"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@id/txtHeading"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtHeading" />
 
     <EditText
         android:id="@+id/edtAfternoon1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="408dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
         android:hint="Monday Afternoon"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@id/edtMorning1"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtMorning1" />
 
     <EditText
         android:id="@+id/edtMorning2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
         android:hint="Tuesday Morning"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@id/edtAfternoon1"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtAfternoon1" />
 
     <EditText
         android:id="@+id/edtAfternoon2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="407dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
         android:hint="Tuesday Afternoon"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@id/edtMorning2"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="10dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtMorning2" />
 
     <Button
         android:id="@+id/btnDetailed"
